@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.VideoBee" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!--  Primary brand color-->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/cool_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!--  Secondary brand color-->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/cool_red</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here -->
+
+    </style>
+
+    // Custom theme
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">         // will only work in light mode
+        <!--  Primary brand color-->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/cool_blue</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <!--  Secondary brand color-->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/cool_red</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="splash_screen" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+</resources>
